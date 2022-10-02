@@ -289,6 +289,12 @@ Also brace expansions may be used for creating ranges, which are iterated over i
 echo {0..5} # 0 1 2 3 4 5
 echo {00..8..2} # 00 02 04 06 08
 ```
+`{00..8..2}` represents `{start..end..steps}`
+
+Examle : 
+`$ echo {0..10..3}`
+output: 
+0 3 6 9
 
 ## Command substitution
 
